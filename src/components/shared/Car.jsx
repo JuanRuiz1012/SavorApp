@@ -15,7 +15,7 @@ const Card = (props) => {
           onClick={() => setShowOrder(false)}
           className="lg:hidden absolute left-4 top-4 p-3 box-content text-gray-300 bg-[#262837] rounded-full text-xl"
         />
-        <h1 className="text-2xl my-4">Orders #151416</h1>
+        <h1 className="text-2xl my-4">Pedido #XXX</h1>
         {/* Pills */}
         <div className="flex items-center gap-4 flex-wrap mb-8">
           <button className="bg-[#ec7c6a] text-white py-2 px-4 rounded-xl">
@@ -31,9 +31,9 @@ const Card = (props) => {
         {/* Car */}
         <div>
           <div className="grid grid-cols-6 mb-4 p-4">
-            <h5 className="col-span-4">Item</h5>
-            <h5>Qty</h5>
-            <h5>Price</h5>
+            <h5 className="col-span-2">Articulo</h5>
+            <h5 className="col-span-2">Cantidad</h5>
+            <h5 className="col-span-2">Precio</h5>
           </div>
           {/* Products */}
           <div className="h-[400px] md:h-[700px] lg:h-[540px] overflow-scroll">
@@ -195,7 +195,7 @@ const Card = (props) => {
           </div>
           <div>
             <button className="bg-[#ec7c6a] w-full py-2 px-4 rounded-lg">
-              Continue to payment
+              Continuar al pago
             </button>
           </div>
         </div>
