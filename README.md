@@ -1,4 +1,6 @@
-/// git pull origin https://gitlab.com/juan.ruiz.lopez/savorapp.git
+/// git clone https://gitlab.com/juan.ruiz.lopez/savorapp.git
+
+/// git pull origin main
 
 /// npm install
 
